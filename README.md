@@ -89,7 +89,7 @@ Wie immer findet ihr hier aber auch die Datenblätter der Komponenten unserer Ro
 **PID-Controller:**
 
 * [Einfache Einführung](https://www.csimn.com/CSI_pages/PIDforDummies.html)
-* [Überblick](https://en.wikipedia.org/wiki/PID_controller#Loop_tuning)
+* [Überblick](https://en.wikipedia.org/wiki/PID_controller)
 * Einführende Erklärungen:
 
   !![PIDIntroduction](https://www.youtube.com/embed/UR0hOmjaHp0)<!--
@@ -168,7 +168,10 @@ Die Aufgabe ist bis zu der Woche vom **22.01. - 26.01.2018** vorzubereiten.
 ## Aufgabe 4.1
 
 --{{1}}--
-Das Ziel dieser Aufgabe ist es, die Distanzsensoren an der Vorderseite unserer Roboterplattform in Betrieb zu nehmen. Implementiert dazu die Funktionen in `Distance.{h,cpp}`.
+Das Ziel dieser Aufgabe ist es, die Odometrie an unserem Roboter in Betrieb zu nehmen. Dazu müsst ihr zunächst die entsprechenden Interrupts konfigurieren und Interruptroutinen schreiben.
+
+--{{2}}--
+Ausgabe der Odometrie soll die aktuelle Geschwindigkeit des jeweiligen Motors sein.
 
 
 **Ziel:**
@@ -176,14 +179,14 @@ Implementierung der Odometrie.
 
 **Teilschritte:**
 
-1. Konfiguriert Analog-Digital-Wandler für die Verwendung mit den Distanzsensoren.
-2. Implementiert Funktion `readADC(uint8_t channel)` zum Auslesen der Distanzsensoren (digitalisierte Spannungswerte in mV).
-3. Implementiert Funktionen `linearizeLR(uint16_t voltage)` und `linearizeSR(uint16_t voltage)` zur Transformation der Spannungswerte in Distanzwerte (mm) für beide Sensoren.
+1. Interruptroutinen schreiben
+2. Interrupts konfigurieren.
+3. Interruptroutinen eintragen.
 
 ## Aufgabe 4.2
 
 --{{1}}--
-Nachdem wir nun die Ansteuerung der Distanzsensoren erfolgreich implementiert haben, wollen wir auch die Daten der inertialen Messeinheit auslesen und konvertieren.
+Die Odometrie, die wir in der vorhergehenden Aufgabe implementiert haben, erlaubt es uns nun, die Geschwindigkeit der Motoren/Räder zu regeln. Dazu sollt ihr in dieser Teilaufgabe einen PID-Regler implementieren und parametrisieren.
 
 
 **Ziel:**
@@ -191,43 +194,41 @@ Regelt die Drehgeschwindigkeit der Motoren mit Hilfe von PID Reglern.
 
 **Teilschritte:**
 
-1. Implementiert das Auslesen und Transformieren der Beschleunigungs- und  Drehratenwerte der IMU.
+1. Implementierung eines PID-Reglers.
+2. Erweiterung der Motor-API.
+3. Parametrisierung des Reglers für beide Motoren.
 
 ## Aufgabe 4.3
 
 --{{1}}--
-Da wir nun die Umgebung unseres Roboters mit Hilfe unserer Sensoren beobachten können, wollen wir die erhaltenen Werte natürlich noch entsprechend darstellen.
+Mit der Regelungsstrategie unserer Motoren können wir nun eine intelligente Bewegungsstrategie implementieren. Da dies bedeutet, dass unser Roboter autonom die Geschwindigkeitsvorgaben für die Motoren bestimmen wird, müssen wir dabei auch die Sicherheit des Systems beachten. Dies bedeutet zunächst, dass wir Kollisionen unseres Roboters mit Objekten in der Umgebung vermeiden sollten. Daher ist das Ziel dieser Teilaufgabe, eine Kollisionsvermeidung auf Basis der IR-Distanzsensoren zu implementieren.
 
 
 **Ziel:**
 Nutzt die IR-Distanzsensoren um eine Kollisionsvermeidung zu implementieren.
 
-**Hinweis:**
-Da durch die Anzahl der Diagramm die Darstellung durch Arduinoview unübersichtlich werden kann, könnt ihr jeweils die Werte auch in textueller Form darstellen und periodisch aktualisieren.
-
-zu wenig Platz
-
 **Teilschritte:**
 
-1. Stellt die aktuellen Werte beider Distanzsensoren in einem Diagramm dar.
-2. Stellt die aktuellen Beschleunigungswerte aller 3 Achsen in einem Diagramm dar.
-3. Stellt die aktuellen Drehraten aller 3 Achsen in einem Diagramm dar.
-4. Messwertdarstellung auf dem Display
-
-   * über Knöpfe auf dem Roboter soll sich Messwerte direkt anzeigen lassen (Knopf 1: LR Distanz, Knopf 2 SR Distanz, Knopf 3: Drehwinkelwinkel des Roboters um die Senkrechte, Knopf 4: Rücksetzen des Drehwinkels)
-   * wenn kein knopf gedrück wird soll einer der beiden Distanzwerte ausgegeben werden
-   * bestimmt die Qualität der Messungen unterschiedlicher Distanzen (experimentel) und implemetiert eine Auswahl des Sensors
-
-5. Konvertiert die Beschleunigungs- und Drehratenwerte in eine Robotergeschwindigkeit und -Orientierung, d.h. $v$ und $\theta$.
+1. Implementiert eine Schutzfunktion zur Vermeidung von Kollisionen.
+2. Legt empirisch einen minimalen Distanzwert für die Kollisionsvermeidung fest.
 
 ## Aufgabe 4.4
 
 --{{1}}--
-Neben der Geschwindigkeitsüberwachung erlauben uns die Beschleunigungswerte in $x$ und $y$ Richtung, auch die Implementierung einer Positionsüberwachung. Daher ist das Ziel dieser Bonusaufgabe, die Berechnung der Position ($x~in~[mm]$, $y~in~[mm]$).
+Nachdem unsere Sensoren und Aktoren, sowie eine einfache Kollisionsvermeidung einsatzbereit sind, können wir diese Komponenten nutzen um eine intelligentere Bewegungsstrategie zu implementieren: eine Wandverfolgung.
+
+--{{2}}--
+Ein Problem beim Lösen dieser Aufgabe ist, dass unsere Distanzsensoren lediglich an Front unseres Roboters montiert sind. Da wir dementsprechend nicht direkt unsere aktuelle, seitliche Distanz zur Wand messen können, müsst ihr den Roboter in bestimmten Abständen anhalten und erneut orientieren. Die Parametrisierung dieses Vorgehens hängt von den Ungenauigkeiten eurer Sensorik und Aktorik ab. Ermittelt diese Werte daher empirisch.
 
 
 **Ziel:**
 Implementiert eine Wandverfolgung.
+
+**Teilschritte:**
+
+1. Implementiert eine initiale Lokalisierung: "Wo ist die nächste Wand?"
+2. Plant eine Bewegung zur Wand, sodass ihr in einer gewissen Distanz *d* neben der Wand steht.
+3. Beginnt die Wandverfolgung.
 
 # Quizze
 
@@ -236,30 +237,71 @@ Wie auch in der letzten Aufgabe haben wir noch ein paar kurze Fragen an euch.
 
 ## Interrupts
 
-**Welche Kategorien von Interrupts können unterschieden werden?**
+**Welche Kategorien von Interrupts können allgemein unterschieden werden?**
 
-[[ ]] Gleitende Interrupts
-[[X]] Maskierbare Interrupts
-[[X]] nicht-maskierbare Interrupts
-[[X]] Inter-Prozess Interrupts 
-[[ ]] Asynchrone Interrupts
-[[ ]] Synchrone Interrupts
-[[X]] Software Interrupts
-[[X]] Spurious Interrupts
+  [[ ]] Gleitende Interrupts
+  [[X]] Maskierbare Interrupts
+  [[X]] nicht-maskierbare Interrupts
+  [[X]] Inter-Prozess Interrupts 
+  [[ ]] Asynchrone Interrupts
+  [[ ]] Synchrone Interrupts
+  [[X]] Software Interrupts
+  [[X]] Spurious Interrupts
 
 **Was versteht man unter *nested interrupts*?**
 
-**Welche Typen von Interrupts unterscheider der AVR ATmega32U4?**
+  [( )] Programmabläufe, die lediglich aus Interrupts bestehen.
+  [(X)] Interrupts, die während der Abarbeitung eines vorhergehenden Interrupts bearbeitet werden.
+  [( )] Interrupts, die weitere Interrupts auslösen.
+  [( )] Programmabläufe, die Interrupts aus Sicherheitsgründen verbieten.
+        
 
-**Was ist die *Interrupt Response Time des AVR ATmega32U4?**
+**Welche Typen von Interrupts unterscheidet der AVR ATmega32U4?**
 
-[(X)] 5 Clock Cylces
-[( )] 10 Clock Cylces
-[( )] 15 Clock Cylces
+  [( )] Externe und interne Interrupts.
+  [(X)] Interrupts mit und ohne Interrupt Flag.
+  [( )] Kurze und Lange Interrupts.
+  
+**Was bezeichnet die *Interrupt Response Time*?**
+
+  [( )] Die Abarbeitungsdauer eines Interrupts.
+  [(X)] Die Zeit gemessen von dem Auftreten eines Interrupt-Signals bis zum Beginn der Abarbeitung der Interruptroutine.
+  [( )] Die Zeit gemessen von dem Sprung aus dem Programmablauf bis zum Sprung zurück in den Programmablauf.
+
+**Was ist die *Interrupt Response Time* des AVR ATmega32U4?**
+
+  [(X)] 5 Clock Cylces
+  [( )] 10 Clock Cylces
+  [( )] 15 Clock Cylces
 
 ## Odometrie
 
+**Welchen Vorteil hat ein Absolutwertgeben (engl. *absolute encoder*) gegenüber einem Inkrementalgeber (engl. *incremental encoder*)?**
+
+  [(X)] Er ermöglicht die direkte Schätzung der Position eines Motors/Rades.
+  [( )] Er kann bei höheren Frequenzen betrieben werden.
+  [( )] Er hat einen einfacheren Aufbau.
+
 ## PID Regler
 
+**Wofür steht PID im Namen des PID Reglers?**
+
+  [( )] Passing, Integrating, Deviating 
+  [(X)] Proportional, Integral, Derivative
+  [( )] Proportional, Interfacing, Deviating 
+  
+**Wozu wird der I-Anteil in einem PID Regler benötigt?**
+
+  [(X)] Um einen durch sinkende Fehlerwerte verbleibenden Regelfehler auszugleichen.
+  [( )] Um das Verhalten des geregelten Systems auszugleichen.
+  [( )] Um Fehler des Sensors auszugleichen.
+
 ## Bewegungsstrategien
+
+**Wofür steht die Abkürzung SLAM?**
+
+  [( )] Self-centered localization and motion
+  [( )] Similarity based labeling and motion
+  [( )] Simultaneous localization and motion
+  [(X)] Simultaneous localization and mapping
 
