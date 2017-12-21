@@ -413,6 +413,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 [[___ ___ ___ ___]]
 
 **Inwieweit stimmen Sie den folgenden Aussagen zur Bedienung des RemoteLab-System zu?**
+
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
     [ ] Das System ist unhandlich zu bedienen.
     [ ] Die Oberfläche des Remote Labs ist hilfreich strukturiert.
@@ -508,4 +509,3 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
     [ ] Der Austausch mit den Tutoren (und anderen Lehrpersonen) erfolgte ...
 
 **Wir danken Ihnen für Ihre Unterstützung bei der Studie! Wenn Sie an den Ergebnissen interessiert sind, geben Sie bitte Prof. Zug Bescheid. Sobald ein Ergebnisbericht vorliegt, würden wir diesen dann an Sie weiterleiten.**
-
