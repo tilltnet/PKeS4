@@ -473,7 +473,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
     [ ] Datenbankenmanagement     
     [ ] Erschließen neuer Systeme    
     [ ] Lernen neuer Programmierparadigmen         
-            
+
 **Gleich haben Sie es geschafft! Zum Abschluss möchten wir Ihnen noch ein paar Fragen zur Zusammenarbeit mit anderen Studierenden stellen.**
 
 [(:Nie)(:2)(:3)(:4)(:Immer)]
@@ -481,7 +481,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 
 **Wenn sie die mit KommilitonInnen zusammengearbeitet haben, ...**
 
-[(:Ja, immer)(:2)(:3)(:4)(:nein, immer mit wechselnden )]
+[(:Ja - immer)(:2)(:3)(:4)(:nein - immer mit wechselnden )]
     [ ] ... haben Sie immer mit dem/den gleichen KommilitonInnen zusammengearbeitet?
 
 **Wenn Sie mit KommilitonInnen zusammengearbeitet haben, was war Ihre Motivation dafür?**
