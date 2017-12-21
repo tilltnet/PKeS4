@@ -356,7 +356,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 [(:deutlich niedriger)(:2)(:3)(:4)(:deutlich hoeher)]
     [ ] Im Vergleich mit anderen LV: Wie schätzen Sie das inhaltliche Niveau der Lehrveranstaltung ein?                       
     [ ] Im Vergleich mit anderen Lehrveranstaltungen: Wie hoch war der Zeitaufwand für diese LV? 
-	
+
 [(:sehr niedrig)(:2)(:3)(:4)(:sehr hoch)]
     [ ] Wie beurteilen Sie den Zeitaufwand für die Bearbeitung der praktischen Aufgaben?    
 
@@ -412,7 +412,6 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 
 [[___ ___ ___ ___]]
 
-
 **Inwieweit stimmen Sie den folgenden Aussagen zur Bedienung des RemoteLab-System zu?**
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
     [ ] Das System ist unhandlich zu bedienen.
@@ -428,7 +427,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
     [ ] Für mich war die Nutzung des Remote Labs selbsterklärend.
     [ ] Das Remote Lab hat zuverlässig funktioniert.
     [ ] Die Roboter haben zuverlässig funktioniert.
- 
+
 **Nachdem Sie nun bereits die letzte Aufgabe in PKeS bearbeitet haben, möchten wir Sie um eine kurze Einschätzung ihrer Motivation insgesamt bitten. Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem Remote Lab zu?**
 
 **Die Bearbeitung der Aufgaben …**
@@ -482,7 +481,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 **Wenn sie die mit KommilitonInnen zusammengearbeitet haben, ...**
 
 [(:Ja, immer)(:2)(:3)(:4)(:nein, immer mit wechselnden )]
-    [ ] ..., haben Sie immer mit dem/den gleichen KommilitonInnen zusammengearbeitet?
+    [ ] ... haben Sie immer mit dem/den gleichen KommilitonInnen zusammengearbeitet?
 
 **Wenn Sie mit KommilitonInnen zusammengearbeitet haben, was war Ihre Motivation dafür?**
 
@@ -508,6 +507,5 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
     [ ] Das Schreiben des Codes erfolgte ...
     [ ] Der Austausch mit den Tutoren (und anderen Lehrpersonen) erfolgte ...
 
-	
-__Wir danken Ihnen für Ihre Unterstützung bei der Studie! Wenn Sie an den Ergebnissen interessiert sind, geben Sie bitte Prof. Zug Bescheid. Sobald ein Ergebnisbericht vorliegt, würden wir diesen dann an Sie weiterleiten.__
+**Wir danken Ihnen für Ihre Unterstützung bei der Studie! Wenn Sie an den Ergebnissen interessiert sind, geben Sie bitte Prof. Zug Bescheid. Sobald ein Ergebnisbericht vorliegt, würden wir diesen dann an Sie weiterleiten.**
 
