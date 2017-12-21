@@ -312,6 +312,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 **Wie würden Sie ihre Kenntnisse der folgenden Konzepte und Anwendungen NACH der Teilnahme an der LV “Prinzipien und Komponenten eingebetteter Systeme” einschätzen?**
  
 **Meine Kenntnisse sind …**
+
 [(:sehr gering)(:2)(:3)(:4)(:sehr hoch)]
     [ ] Roboteranwendungen (ROS/LegoMindStorm/...)
     [ ] Eingebettete Controller/Boards (Arduino/Raspberry PI/PIC/BeagleBone/...)
@@ -323,15 +324,15 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 **Hat Ihnen die Arbeit mit dem RemoteLab dabei geholfen, folgende Konzepte besser zu verstehen?**
 
 [(:gar nicht)(:2)(:3)(:4)(:voll und ganz)]
-    [] Timer 
-    [] ALU  
-    [] GPIO 
-    [] MemoryMappedI 
-    [] Flash  
-    [] Ram    
-    [] EEPROM       
-    [] PWM 
-    [] Interrupts
+    [                                                  ] Timer 
+    [                                                  ] ALU  
+    [                                                  ] GPIO 
+    [                                                  ] MemoryMappedI 
+    [                                                  ] Flash  
+    [                                                  ] Ram    
+    [                                                  ] EEPROM       
+    [                                                  ] PWM 
+    [                                                  ] Interrupts
         
 **Wie würden Sie Ihren Lernfortschritt (Verbesserung Ihrer Kenntnisse bzw. Fähigkeiten) im Rahmen der Arbeit mit dem RemoteLab einschätzen?**
 
