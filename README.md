@@ -353,13 +353,15 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 [(:sehr unzufrieden)(:2)(:3)(:4)(:sehr zufrieden)]
     [ ] Inwieweit sind Sie ganz allgemein mit der Lehrveranstaltung “eingebettete Systeme” (Vorlesung + Übung + Selbstlernphasen) zufrieden?
 
-<br>
-	
 [(:deutlich niedriger)(:2)(:3)(:4)(:deutlich hoeher)]
     [ ] Im Vergleich mit anderen LV: Wie schätzen Sie das inhaltliche Niveau der Lehrveranstaltung ein?                       
     [ ] Im Vergleich mit anderen Lehrveranstaltungen: Wie hoch war der Zeitaufwand für diese LV? 
-    [ ] sehr niedrig - sehr hoch: Wie beurteilen Sie den Zeitaufwand für die Bearbeitung der praktischen Aufgaben?            
-    [ ] sehr schlecht - sehr gut: Wie beurteilen Sie die Klarheit der Beschreibungen der praktischen Aufgaben?
+	
+[(:sehr niedrig)(:2)(:3)(:4)(:sehr hoch)]
+    [ ] Wie beurteilen Sie den Zeitaufwand für die Bearbeitung der praktischen Aufgaben?    
+
+[(:sehr schlecht)(:2)(:3)(:4)(:sehr gut)]
+    [ ] Wie beurteilen Sie die Klarheit der Beschreibungen der praktischen Aufgaben?
 
 [(:gar nicht)(:2)(:3)(:4)(:sehr gut)]
     [ ] Wie gut fühlten Sie sich durch vorangegangene LV auf die Aufgaben im RemoteLab vorbereitet?           
