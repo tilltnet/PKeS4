@@ -355,7 +355,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 
 **asd**
 	
-[(:deutlich niedriger)(:2)(:3)(:4)(:deutlich höher)]
+[(:deutlich niedriger)(:2)(:3)(:4)(:deutlich hoeher)]
     [ ] Im Vergleich mit anderen LV: Wie schätzen Sie das inhaltliche Niveau der Lehrveranstaltung ein?                       
     [ ] Im Vergleich mit anderen Lehrveranstaltungen: Wie hoch war der Zeitaufwand für diese LV? 
     [ ] sehr niedrig - sehr hoch: Wie beurteilen Sie den Zeitaufwand für die Bearbeitung der praktischen Aufgaben?            
@@ -381,12 +381,14 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 
 
 **Die im RemoteLab erlernten Inhalte werden...**
+
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
     [ ] ...im Verlauf des weiteren Studiums von Nutzen sein.       
     [ ] ... bei der Stellensuche nach dem Studium relevant sein.     
     [ ] ... im Rahmen von Praktika zum Einsatz kommen.                        
 
 **Sie hatten in dieser Lehrveranstaltung die Möglichkeit, die praktischen Aufgaben in einem RemoteLab zu bearbeiten. Vergleichen Sie die Arbeit mit einem RemoteLab bitte mit der Arbeit in einem Labor, in dem Sie vor Ort sind. Inwieweit stimmen Sie folgenden Aussagen zu:**
+
 [(:gar nicht)(:2)(:3)(:4)(:voll und ganz)]
     [ ] Der Remote-Ansatz ermöglicht es mir, die Lernaufgaben schneller zu erledigen.
     [ ] Durch die Nutzung des RemoteLabs, kann ich mich intensiver mit den Lernaufgaben beschäftigen.      
@@ -398,6 +400,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
     [ ] Die ständige Verfügbarkeit des RemoteLabs hat es mir ermöglicht, Lösungsansätze direkt auszuprobieren.
 
 **Nun wollen wir wissen, in welchem Umfang Sie die Möglichkeit, von einem Ort Ihrer Wahl auf das Labor zuzugreifen, genutzt haben. An welchem Ort (außerhalb der Übungen) haben Sie mit dem RemoteLab gearbeitet?**
+
 [(:Nie)(:2)(:3)(:4)(:Immer)]
     [ ] In Raum 334
     [ ] Von einem anderen Ort in der Uni
@@ -427,6 +430,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 **Nachdem Sie nun bereits die letzte Aufgabe in PKeS bearbeitet haben, möchten wir Sie um eine kurze Einschätzung ihrer Motivation insgesamt bitten. Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem Remote Lab zu?**
 
 **Die Bearbeitung der Aufgaben …**
+
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
     [ ] ... war interessant.
     [ ] ... hat mir Spaß gemacht.
@@ -454,6 +458,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
     [ ] Ich habe sehr viel kognitive Anstrengung investiert, um die Inhalte besser zu verstehen.
 
 **Nun noch eine Frage zu Ihren Interessen an der Informatik. Bitte geben Sie an, welche der Aktivitäten Sie gerne ausführen und welche nicht.**
+
 [(:sehr ungerne)(:2)(:3)(:4)(:sehr gerne)]
     [ ] Quellcode schreiben  
     [ ] Dokumentation lesen
@@ -473,6 +478,7 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
     [ ] Haben Sie bei der Bearbeitung der Aufgaben mit anderen Studierenden zusammengearbeitet?
 
 **Wenn sie die mit KommilitonInnen zusammengearbeitet haben, ...**
+
 [(:Ja, immer)(:2)(:3)(:4)(:nein, immer mit wechselnden )]
     [ ] ..., haben Sie immer mit dem/den gleichen KommilitonInnen zusammengearbeitet?
 
