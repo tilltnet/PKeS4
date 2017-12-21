@@ -313,12 +313,12 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
  
 **Meine Kenntnisse sind …**
 [(:sehr gering)(:2)(:3)(:4)(:sehr hoch)]
-[] Roboteranwendungen (ROS/LegoMindStorm/...)
-[] Eingebettete Controller/Boards (Arduino/Raspberry PI/PIC/BeagleBone/...)
-[] Eingebettete Betriebssysteme (RTOS, Contiki, embedded Linux/ ...)
-[] SmartPhone-Anwendungen (Android/iOS/Windows)
-[] Web-Frontend (HTML/Javascript/...)
-[] Web-Backend (PHP/Perl/RubyRails/NodeJS/...)
+ [ ] Roboteranwendungen (ROS/LegoMindStorm/...)
+ [ ] Eingebettete Controller/Boards (Arduino/Raspberry PI/PIC/BeagleBone/...)
+ [ ] Eingebettete Betriebssysteme (RTOS, Contiki, embedded Linux/ ...)
+ [ ] SmartPhone-Anwendungen (Android/iOS/Windows)
+ [ ] Web-Frontend (HTML/Javascript/...)
+ [ ] Web-Backend (PHP/Perl/RubyRails/NodeJS/...)
 
 **Hat Ihnen die Arbeit mit dem RemoteLab dabei geholfen, folgende Konzepte besser zu verstehen?**
 
