@@ -313,25 +313,25 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
  
 **Meine Kenntnisse sind …**
 [(:sehr gering)(:2)(:3)(:4)(:sehr hoch)]
- [ ] Roboteranwendungen (ROS/LegoMindStorm/...)
- [ ] Eingebettete Controller/Boards (Arduino/Raspberry PI/PIC/BeagleBone/...)
- [ ] Eingebettete Betriebssysteme (RTOS, Contiki, embedded Linux/ ...)
- [ ] SmartPhone-Anwendungen (Android/iOS/Windows)
- [ ] Web-Frontend (HTML/Javascript/...)
- [ ] Web-Backend (PHP/Perl/RubyRails/NodeJS/...)
+    [ ] Roboteranwendungen (ROS/LegoMindStorm/...)
+    [ ] Eingebettete Controller/Boards (Arduino/Raspberry PI/PIC/BeagleBone/...)
+    [ ] Eingebettete Betriebssysteme (RTOS, Contiki, embedded Linux/ ...)
+    [ ] SmartPhone-Anwendungen (Android/iOS/Windows)
+    [ ] Web-Frontend (HTML/Javascript/...)
+    [ ] Web-Backend (PHP/Perl/RubyRails/NodeJS/...)
 
 **Hat Ihnen die Arbeit mit dem RemoteLab dabei geholfen, folgende Konzepte besser zu verstehen?**
 
 [(:gar nicht)(:2)(:3)(:4)(:voll und ganz)]
-[] Timer 
-[] ALU  
-[] GPIO 
-[] MemoryMappedI 
-[] Flash  
-[] Ram    
-[] EEPROM       
-[] PWM 
-[] Interrupts
+    [] Timer 
+    [] ALU  
+    [] GPIO 
+    [] MemoryMappedI 
+    [] Flash  
+    [] Ram    
+    [] EEPROM       
+    [] PWM 
+    [] Interrupts
         
 **Wie würden Sie Ihren Lernfortschritt (Verbesserung Ihrer Kenntnisse bzw. Fähigkeiten) im Rahmen der Arbeit mit dem RemoteLab einschätzen?**
 
