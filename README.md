@@ -337,12 +337,12 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 **Wie würden Sie Ihren Lernfortschritt (Verbesserung Ihrer Kenntnisse bzw. Fähigkeiten) im Rahmen der Arbeit mit dem RemoteLab einschätzen?**
 
 [(:sehr gering)(:2)(:3)(:4)(:sehr hoch)]
-[] Systemnahe C-Programmierung (Registerzugriff, Bitmanipulationen, ...) 
-[] Grundlage sensorischer Umgebungserfassung (Wirkprinzipien/Modalitäten)         
-[] Signalverarbeitung (Filter/Transformation/Detektion)         
-[] Ansteuerung Aktuatorik (PWM/Steuerung & Regelung)    
-[] Grundlagen Eingebetteter Systeme (Physical Computing) 
-[] Verstehendes Lesen von Datenblättern        
+    [ ] Systemnahe C-Programmierung (Registerzugriff, Bitmanipulationen, ...) 
+    [ ] Grundlage sensorischer Umgebungserfassung (Wirkprinzipien/Modalitäten)         
+    [ ] Signalverarbeitung (Filter/Transformation/Detektion)         
+    [ ] Ansteuerung Aktuatorik (PWM/Steuerung & Regelung)    
+    [ ] Grundlagen Eingebetteter Systeme (Physical Computing) 
+    [ ] Verstehendes Lesen von Datenblättern        
  
 **Gab es Aufgaben, wo Sie sich zusätzliche Hilfestellungen, Informationen oder Lernmaterialien gewünscht hätten? Beschreiben Sie diese kurz:**
 
@@ -351,55 +351,55 @@ Wir bitten Sie nun noch einen Abschlussfragebogen zur Lehrveranstaltung “PKeS�
 **Bitte schätzen Sie nun die Lehrveranstaltung “Prinzipien und Komponenten eingebetteter Systeme” anhand einiger Fragen ein. Möglicherweise kommen Ihnen einige Fragen aus der Lehrveranstaltungsevaluation bekannt vor, dennoch bitten wir Sie alle Fragen zu beantworten.
 
 [(:sehr unzufrieden)(:2)(:3)(:4)(:sehr zufrieden)]
-[] Inwieweit sind Sie ganz allgemein mit der Lehrveranstaltung “eingebettete Systeme” (Vorlesung + Übung + Selbstlernphasen) zufrieden?
+    [ ] Inwieweit sind Sie ganz allgemein mit der Lehrveranstaltung “eingebettete Systeme” (Vorlesung + Übung + Selbstlernphasen) zufrieden?
 
 [(:deutlich niedriger)(:2)(:3)(:4)(:deutlich höher)]
-Im Vergleich mit anderen LV: Wie schätzen Sie das inhaltliche Niveau der Lehrveranstaltung ein?                       
-Im Vergleich mit anderen Lehrveranstaltungen: Wie hoch war der Zeitaufwand für diese LV? 
-sehr niedrig - sehr hoch: Wie beurteilen Sie den Zeitaufwand für die Bearbeitung der praktischen Aufgaben?            
-sehr schlecht - sehr gut: Wie beurteilen Sie die Klarheit der Beschreibungen der praktischen Aufgaben?
+    [ ] Im Vergleich mit anderen LV: Wie schätzen Sie das inhaltliche Niveau der Lehrveranstaltung ein?                       
+    [ ] Im Vergleich mit anderen Lehrveranstaltungen: Wie hoch war der Zeitaufwand für diese LV? 
+    [ ] sehr niedrig - sehr hoch: Wie beurteilen Sie den Zeitaufwand für die Bearbeitung der praktischen Aufgaben?            
+    [ ] sehr schlecht - sehr gut: Wie beurteilen Sie die Klarheit der Beschreibungen der praktischen Aufgaben?
 
 [(:gar nicht)(:2)(:3)(:4)(:sehr gut)]
-[] Wie gut fühlten Sie sich durch vorangegangene LV auf die Aufgaben im RemoteLab vorbereitet?           
-[] Wie gut fühlten Sie sich durch die Vorlesung auf die Aufgaben im RemoteLab vorbereitet?      
-[] Wie gut konnten Sie eine inhaltliche Beziehung zwischen den Inhalten der Vorlesung und den Aufgaben im RemoteLab herstellen?           
-[] Inwiefern war die Übung hilfreich, um die Lerninhalte zu verstehen?       
-[] Wie gut fühlten Sie sich durch die ÜbungsleiterInnen betreut?      
-[] Inwiefern waren Vorlesung, Aufgaben im RemoteLab und Übung zeitlich gut aufeinander abgestimmt?  
-[] Inwiefern fühlten Sie sich auf die mündliche Prüfung am Ende der LV gut vorbereitet?
-[] gar nicht- sehr häufig: Haben Sie sich an den Übungsleiter gewandt, wenn Sie konkrete Probleme oder Fragen hatten?     
-[] In den folgenden Fragen geht es um Ihre Einschätzung der Nützlichkeit des RemoteLabs.
+    [ ] Wie gut fühlten Sie sich durch vorangegangene LV auf die Aufgaben im RemoteLab vorbereitet?           
+    [ ] Wie gut fühlten Sie sich durch die Vorlesung auf die Aufgaben im RemoteLab vorbereitet?      
+    [ ] Wie gut konnten Sie eine inhaltliche Beziehung zwischen den Inhalten der Vorlesung und den Aufgaben im RemoteLab herstellen?           
+    [ ] Inwiefern war die Übung hilfreich, um die Lerninhalte zu verstehen?       
+    [ ] Wie gut fühlten Sie sich durch die ÜbungsleiterInnen betreut?      
+    [ ] Inwiefern waren Vorlesung, Aufgaben im RemoteLab und Übung zeitlich gut aufeinander abgestimmt?  
+    [ ] Inwiefern fühlten Sie sich auf die mündliche Prüfung am Ende der LV gut vorbereitet?
+    [ ] gar nicht- sehr häufig: Haben Sie sich an den Übungsleiter gewandt, wenn Sie konkrete Probleme oder Fragen hatten?     
+    [ ] In den folgenden Fragen geht es um Ihre Einschätzung der Nützlichkeit des RemoteLabs.
 
 **Wie effektiv schätzen Sie die Arbeit mit dem RemoteLab zu folgenden Lernzielen ein?**
 
 [(:gar nicht effektiv)(:2)(:3)(:4)(:sehr effektiv)]
-[] Vermittlung von spezifischen Konzepten, die für das Verstehen der Thematik der LV “Prinzipien und Komponenten eingebetteter Systeme” relevant sind.            
-[] Verbesserung meines generellen Wissens über das Feld.   
-[] Verbesserung von Fähigkeiten, die eine(n) bessere(n) InformatikerIn/ProgrammiererIn aus mir machen.
+    [ ] Vermittlung von spezifischen Konzepten, die für das Verstehen der Thematik der LV “Prinzipien und Komponenten eingebetteter Systeme” relevant sind.            
+    [ ] Verbesserung meines generellen Wissens über das Feld.   
+    [ ] Verbesserung von Fähigkeiten, die eine(n) bessere(n) InformatikerIn/ProgrammiererIn aus mir machen.
 
 
 **Die im RemoteLab erlernten Inhalte werden...**
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
-[] ...im Verlauf des weiteren Studiums von Nutzen sein.       
-[] ... bei der Stellensuche nach dem Studium relevant sein.     
-[] ... im Rahmen von Praktika zum Einsatz kommen.                        
+    [ ] ...im Verlauf des weiteren Studiums von Nutzen sein.       
+    [ ] ... bei der Stellensuche nach dem Studium relevant sein.     
+    [ ] ... im Rahmen von Praktika zum Einsatz kommen.                        
 
 **Sie hatten in dieser Lehrveranstaltung die Möglichkeit, die praktischen Aufgaben in einem RemoteLab zu bearbeiten. Vergleichen Sie die Arbeit mit einem RemoteLab bitte mit der Arbeit in einem Labor, in dem Sie vor Ort sind. Inwieweit stimmen Sie folgenden Aussagen zu:**
 [(:gar nicht)(:2)(:3)(:4)(:voll und ganz)]
-[] Der Remote-Ansatz ermöglicht es mir, die Lernaufgaben schneller zu erledigen.
-[] Durch die Nutzung des RemoteLabs, kann ich mich intensiver mit den Lernaufgaben beschäftigen.      
-[] Durch die Nutzung des RemoteLabs erschließen sich mir die Inhalte der LV leichter.     
-[] Das RemoteLab ermöglicht mir eine größere zeitliche Flexibilität bei der Bearbeitung der Aufgaben.     
-[] Das RemoteLab ermöglicht mir eine größere örtliche Flexibilität bei der Bearbeitung der Aufgaben.      
-[] Bei der Arbeit mit dem RemoteLab vermisse ich den direkten Umgang mit den Robotern.         
-[] Der Zeitbedarf bei der Arbeit mit dem RemoteLab war höher, als bei der Arbeit im Labor vor Ort.        
-[] Die ständige Verfügbarkeit des RemoteLabs hat es mir ermöglicht, Lösungsansätze direkt auszuprobieren.
+    [ ] Der Remote-Ansatz ermöglicht es mir, die Lernaufgaben schneller zu erledigen.
+    [ ] Durch die Nutzung des RemoteLabs, kann ich mich intensiver mit den Lernaufgaben beschäftigen.      
+    [ ] Durch die Nutzung des RemoteLabs erschließen sich mir die Inhalte der LV leichter.     
+    [ ] Das RemoteLab ermöglicht mir eine größere zeitliche Flexibilität bei der Bearbeitung der Aufgaben.     
+    [ ] Das RemoteLab ermöglicht mir eine größere örtliche Flexibilität bei der Bearbeitung der Aufgaben.      
+    [ ] Bei der Arbeit mit dem RemoteLab vermisse ich den direkten Umgang mit den Robotern.         
+    [ ] Der Zeitbedarf bei der Arbeit mit dem RemoteLab war höher, als bei der Arbeit im Labor vor Ort.        
+    [ ] Die ständige Verfügbarkeit des RemoteLabs hat es mir ermöglicht, Lösungsansätze direkt auszuprobieren.
 
 **Nun wollen wir wissen, in welchem Umfang Sie die Möglichkeit, von einem Ort Ihrer Wahl auf das Labor zuzugreifen, genutzt haben. An welchem Ort (außerhalb der Übungen) haben Sie mit dem RemoteLab gearbeitet?**
 [(:Nie)(:2)(:3)(:4)(:Immer)]
-[] In Raum 334
-[] Von einem anderen Ort in der Uni
-[] Von außerhalb der Uni (zu Hause etc.)
+    [ ] In Raum 334
+    [ ] Von einem anderen Ort in der Uni
+    [ ] Von außerhalb der Uni (zu Hause etc.)
 
 **Wenn Sie auch außerhalb der Übung im Raum 334 gearbeitet haben, was waren die Gründe dafür? Bitte erläutern Sie diese kurz:**
 
@@ -408,94 +408,94 @@ sehr schlecht - sehr gut: Wie beurteilen Sie die Klarheit der Beschreibungen der
 
 **Inwieweit stimmen Sie den folgenden Aussagen zur Bedienung des RemoteLab-System zu?**
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
-[] Das System ist unhandlich zu bedienen.
-[] Die Oberfläche des Remote Labs ist hilfreich strukturiert.
-[] Es ist einfach die Bedienung des Remote Lab-Systems zu erlernen.
-[] Die Bedienung des Remote Lab ist intuitiv.
-[] Mit dem Remote Lab-System zu arbeiten, erfordert (unabhängig von den konkreten Lernaufgaben) ein hohes Maß an geistiger Anstrengung.
-[] Die Interaktion mit dem Remote Lab-System ist klar und verständlich.
-[] Das Remote Lab gibt klare und verständliche Rückmeldungen.
-[] Die Fehlermeldungen des Remote Labs sind bei der Lösung von Problemen hilfreich.
-[] Es hat mich einige Anstrengung gekostet, zu verstehen, wie das System funktioniert.
-[] Ich finde, dass das Remote Lab-System insgesamt einfach zu bedienen ist.
-[] Für mich war die Nutzung des Remote Labs selbsterklärend.
-[] Das Remote Lab hat zuverlässig funktioniert.
-[] Die Roboter haben zuverlässig funktioniert.
+    [ ] Das System ist unhandlich zu bedienen.
+    [ ] Die Oberfläche des Remote Labs ist hilfreich strukturiert.
+    [ ] Es ist einfach die Bedienung des Remote Lab-Systems zu erlernen.
+    [ ] Die Bedienung des Remote Lab ist intuitiv.
+    [ ] Mit dem Remote Lab-System zu arbeiten, erfordert (unabhängig von den konkreten Lernaufgaben) ein hohes Maß an geistiger Anstrengung.
+    [ ] Die Interaktion mit dem Remote Lab-System ist klar und verständlich.
+    [ ] Das Remote Lab gibt klare und verständliche Rückmeldungen.
+    [ ] Die Fehlermeldungen des Remote Labs sind bei der Lösung von Problemen hilfreich.
+    [ ] Es hat mich einige Anstrengung gekostet, zu verstehen, wie das System funktioniert.
+    [ ] Ich finde, dass das Remote Lab-System insgesamt einfach zu bedienen ist.
+    [ ] Für mich war die Nutzung des Remote Labs selbsterklärend.
+    [ ] Das Remote Lab hat zuverlässig funktioniert.
+    [ ] Die Roboter haben zuverlässig funktioniert.
  
 **Nachdem Sie nun bereits die letzte Aufgabe in PKeS bearbeitet haben, möchten wir Sie um eine kurze Einschätzung ihrer Motivation insgesamt bitten. Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem Remote Lab zu?**
 
 **Die Bearbeitung der Aufgaben …**
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
-[] ... war interessant.
-[] ... hat mir Spaß gemacht.
-[] ... hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
-[] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
-[] ... hat mir gefallen.
-[] Solche Aufgaben würde ich gerne öfter bearbeiten.
+    [ ] ... war interessant.
+    [ ] ... hat mir Spaß gemacht.
+    [ ] ... hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
+    [ ] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
+    [ ] ... hat mir gefallen.
+    [ ] Solche Aufgaben würde ich gerne öfter bearbeiten.
 
 
 **Und wie schätzen Sie Ihre kognitive Anstrengung bei der Bearbeitung der Aufgaben ein?**
 
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
-[] Inhaltlich waren die Aufgaben sehr komplex.
-[] Die Probleme, die es zu lösen galt, waren sehr schwierig.
-[] In den Aufgaben wurden sehr komplizierte Konzepte behandelt.
-[] Ich habe sehr viel kognitive Anstrengung investiert, um mit der Komplexität der Inhalte umzugehen.
-[] Die Aufgabenstellungen und Erklärungen in den Aufgaben waren schwer verständlich formuliert.
-[] Die Aufgabenstellungen und Erklärungen waren unklar formuliert.
-[] Die Aufgabenstellungen und Erklärungen waren für das Lernen ineffektiv.
-[] Ich habe sehr viel kognitive Anstrengung investiert, um unklare Aufgabenstellungen und Erklärungen zu verstehen.
-[] Die Aufgaben haben dazu beigetragen, dass ich die Inhalte, die behandelt wurden, besser verstanden habe.
-[] Die Aufgaben haben mich dabei unterstützt, die übergeordneten Problemstellungen zu verstehen.
-[] Die Aufgaben haben mein Wissen über die zugrundeliegenden Konzepte verbessert.
-[] Ich weiß nun sehr viel besser, wie solche Problemstellungen zu behandeln sind.
-[] Ich habe sehr viel kognitive Anstrengung investiert, um die Inhalte besser zu verstehen.
+    [ ] Inhaltlich waren die Aufgaben sehr komplex.
+    [ ] Die Probleme, die es zu lösen galt, waren sehr schwierig.
+    [ ] In den Aufgaben wurden sehr komplizierte Konzepte behandelt.
+    [ ] Ich habe sehr viel kognitive Anstrengung investiert, um mit der Komplexität der Inhalte umzugehen.
+    [ ] Die Aufgabenstellungen und Erklärungen in den Aufgaben waren schwer verständlich formuliert.
+    [ ] Die Aufgabenstellungen und Erklärungen waren unklar formuliert.
+    [ ] Die Aufgabenstellungen und Erklärungen waren für das Lernen ineffektiv.
+    [ ] Ich habe sehr viel kognitive Anstrengung investiert, um unklare Aufgabenstellungen und Erklärungen zu verstehen.
+    [ ] Die Aufgaben haben dazu beigetragen, dass ich die Inhalte, die behandelt wurden, besser verstanden habe.
+    [ ] Die Aufgaben haben mich dabei unterstützt, die übergeordneten Problemstellungen zu verstehen.
+    [ ] Die Aufgaben haben mein Wissen über die zugrundeliegenden Konzepte verbessert.
+    [ ] Ich weiß nun sehr viel besser, wie solche Problemstellungen zu behandeln sind.
+    [ ] Ich habe sehr viel kognitive Anstrengung investiert, um die Inhalte besser zu verstehen.
 
 **Nun noch eine Frage zu Ihren Interessen an der Informatik. Bitte geben Sie an, welche der Aktivitäten Sie gerne ausführen und welche nicht.**
 [(:sehr ungerne)(:2)(:3)(:4)(:sehr gerne)]
-[] Quellcode schreiben  
-[] Dokumentation lesen
-[] Rechner und Programme einrichten/konfigurieren  
-[] Assembler-Programmierung 
-[] Konsolen-Tools (Eingabeaufforderung)       
-[] Programmieren allgemein      
-[] Hardwarenahe Programmierung        
-[] Debugging      
-[] Datenbankenmanagement     
-[] Erschließen neuer Systeme    
-[] Lernen neuer Programmierparadigmen         
+    [ ] Quellcode schreiben  
+    [ ] Dokumentation lesen
+    [ ] Rechner und Programme einrichten/konfigurieren  
+    [ ] Assembler-Programmierung 
+    [ ] Konsolen-Tools (Eingabeaufforderung)       
+    [ ] Programmieren allgemein      
+    [ ] Hardwarenahe Programmierung        
+    [ ] Debugging      
+    [ ] Datenbankenmanagement     
+    [ ] Erschließen neuer Systeme    
+    [ ] Lernen neuer Programmierparadigmen         
             
 **Gleich haben Sie es geschafft! Zum Abschluss möchten wir Ihnen noch ein paar Fragen zur Zusammenarbeit mit anderen Studierenden stellen.**
 
 [(:Nie)(:2)(:3)(:4)(:Immer)]
-[] Haben Sie bei der Bearbeitung der Aufgaben mit anderen Studierenden zusammengearbeitet?
+    [ ] Haben Sie bei der Bearbeitung der Aufgaben mit anderen Studierenden zusammengearbeitet?
 
 **Wenn sie die mit KommilitonInnen zusammengearbeitet haben, ...**
 [(:Ja, immer)(:2)(:3)(:4)(:nein, immer mit wechselnden )]
-[] ..., haben Sie immer mit dem/den gleichen KommilitonInnen zusammengearbeitet?
+    [ ] ..., haben Sie immer mit dem/den gleichen KommilitonInnen zusammengearbeitet?
 
 **Wenn Sie mit KommilitonInnen zusammengearbeitet haben, was war Ihre Motivation dafür?**
 
 [(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
-[] Ich finde es wichtig, andere Studierende zu treffen. 
-[] Wir konnten uns die Arbeit aufteilen.
-[] Ich konnte dadurch von erfahreneren Studierenden lernen.
-[] Mit anderen Studierenden zusammen, macht die Bearbeitung der Aufgaben mehr Spaß.
-[] Wir konnten uns gegenseitig bei der Bearbeitung der Aufgaben helfen.
+    [ ] Ich finde es wichtig, andere Studierende zu treffen. 
+    [ ] Wir konnten uns die Arbeit aufteilen.
+    [ ] Ich konnte dadurch von erfahreneren Studierenden lernen.
+    [ ] Mit anderen Studierenden zusammen, macht die Bearbeitung der Aufgaben mehr Spaß.
+    [ ] Wir konnten uns gegenseitig bei der Bearbeitung der Aufgaben helfen.
 
 **Wenn Sie gemeinsam mit anderen Studierenden an den Aufgaben gearbeitet haben, welche Aussagen beschreiben Ihre gemeinsame Arbeit im RemoteLab?**
 
 [(:nie)(:2)(:3)(:4)(:immer)]
-[] Wir haben gemeinsam am gleichen Ort vor dem gleichen Rechner gearbeitet.
-[] Wir haben am gleichen Ort aber vor unterschiedlichen Rechnern gearbeitet.
-[] Wir haben gleichzeitig an unterschiedlichen Orten gearbeitet und standen dabei in Kontakt (per Mail, social messenger, Skype o.a.).
-[] Wir haben zu unterschiedlichen Zeiten an unterschiedlichen Orten gearbeitet und uns regelmäßig ausgetauscht.
+    [ ] Wir haben gemeinsam am gleichen Ort vor dem gleichen Rechner gearbeitet.
+    [ ] Wir haben am gleichen Ort aber vor unterschiedlichen Rechnern gearbeitet.
+    [ ] Wir haben gleichzeitig an unterschiedlichen Orten gearbeitet und standen dabei in Kontakt (per Mail, social messenger, Skype o.a.).
+    [ ] Wir haben zu unterschiedlichen Zeiten an unterschiedlichen Orten gearbeitet und uns regelmäßig ausgetauscht.
 
 **Wie haben Sie bei der Bedienung des RemoteLabs zusammengearbeitet?**
 
 [(:Meistens durch mich)(:2)(:3)(:4)(:Meistens durch KommilitonInnen)]
-[] Die Bedienung des RemoteLabs erfolgte ...
-[] Das Schreiben des Codes erfolgte ...
-[] Der Austausch mit den Tutoren (und anderen Lehrpersonen) erfolgte ...
+    [ ] Die Bedienung des RemoteLabs erfolgte ...
+    [ ] Das Schreiben des Codes erfolgte ...
+    [ ] Der Austausch mit den Tutoren (und anderen Lehrpersonen) erfolgte ...
 
 __Wir danken Ihnen für Ihre Unterstützung bei der Studie! Wenn Sie an den Ergebnissen interessiert sind, geben Sie bitte Prof. Zug Bescheid. Sobald ein Ergebnisbericht vorliegt, würden wir diesen dann an Sie weiterleiten.__
